@@ -22,6 +22,10 @@ Filters are contained in the filters directory. Each file represents a separate 
 * `folder_sorting.sieve`: Sorts incoming emails into specific folders based on the receipient's plus-addressed email.
   * *Example:* Sorting emails sent to address+shopping@domain into the Shopping folder.
 
+### Service Specific Filters
+
+* `itch_io_updates.sieve`: Moves unwanted updates from itch.io to the Trash. This filter removes unwanted game updates from itch.io, since Itch does not let you individually unsubscribe from updates.
+
 ## Usage
 
 To use these filters in ProtonMail, follow these steps:
