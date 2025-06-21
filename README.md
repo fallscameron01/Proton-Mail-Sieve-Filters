@@ -10,6 +10,8 @@ Sieve filters run on the mail server to filter incoming email. They can be used 
 
 Filters are contained in the filters directory. Each file represents a separate sieve filter in Proton Mail.
 
+*Note that some information (my email addresses) have been redacted for privacy reasons. You will need to replace these with your own addresses.*
+
 ### Labeling
 
 * `music_label.sieve`: Labels incoming emails from music related senders as "Music".
