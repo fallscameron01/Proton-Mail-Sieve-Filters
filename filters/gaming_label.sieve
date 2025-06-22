@@ -10,7 +10,8 @@ if anyof (
     address :contains "from" "ea.com",
     address :contains "from" "ubisoft.com",
     address :contains "from" "paradoxplaza.com",
-    address :contains "from" "play-asia.com"
+    address :contains "from" "play-asia.com",
+    address :contains "from" "sony.com"
 ) {
     fileinto "Gaming";
 }
