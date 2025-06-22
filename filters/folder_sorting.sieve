@@ -2,24 +2,20 @@ require ["fileinto"];
 
 if allof (header :contains "X-Original-To" "<addr>+updates@<domain>")
 {
-  fileinto "Updates";
-  stop;
+    fileinto "Updates";
 }
 
 if allof (header :contains "X-Original-To" "<addr>+shopping@<domain>")
 {
-  fileinto "Shopping";
-  stop;
+    fileinto "Shopping";
 }
 
 if allof (header :contains "X-Original-To" "<addr>+social@<domain>")
 {
-  fileinto "Social";
-  stop;
+    fileinto "Social";
 }
 
 if allof (header :contains "X-Original-To" "<addr>+finance@<domain>")
 {
-  fileinto "Finance";
-  stop;
+    fileinto "Finance";
 }
