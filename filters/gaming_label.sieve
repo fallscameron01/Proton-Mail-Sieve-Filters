@@ -13,8 +13,14 @@ if anyof (
     address :contains "from" "play-asia.com",
     address :contains "from" "sony.com",
     address :contains "from" "nintendo.com",
-    address :contains "from" "steampowered.com"
+    address :contains "from" "steampowered.com",
+    address :contains "from" "limitedrungames.com"
 ) {
     fileinto "Gaming";
 }
 
+if anyof (
+    header :contains "From" "Lost In Cult"
+) {
+    fileinto "Gaming";
+}
