@@ -16,6 +16,7 @@ Filters are contained in the filters directory. Each file represents a separate 
 
 * `music_label.sieve`: Labels incoming emails from music related senders as "Music".
 * `gaming_label.sieve`: Labels incoming emails from gaming related senders as "Gaming".
+* `to_read_label.sieve`: Labels incoming emails indicating new chapters of subscriptions.
 
 ### Folder Sorting
 
