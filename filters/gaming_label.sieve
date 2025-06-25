@@ -14,13 +14,17 @@ if anyof (
     address :contains "from" "sony.com",
     address :contains "from" "nintendo.com",
     address :contains "from" "steampowered.com",
-    address :contains "from" "limitedrungames.com"
+    address :contains "from" "limitedrungames.com",
+    address :contains "from" "videogamesplus.ca",
+    address :contains "from" "fangamer.com",
+    address :contains "from" "superraregames.com"
 ) {
     fileinto "Gaming";
 }
 
 if anyof (
-    header :contains "From" "Lost In Cult"
+    header :contains "From" "Lost In Cult",
+    header :contains "From" "Limited Run Games"
 ) {
     fileinto "Gaming";
 }
