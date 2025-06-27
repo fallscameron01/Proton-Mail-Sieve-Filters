@@ -6,7 +6,9 @@ if anyof (
     address :contains "from" "discogs.com",
     address :contains "from" "hmv.co.uk",
     address :contains "from" "cdjapan.co.jp",
-    address :contains "from" "fueledbyramen.com"
+    address :contains "from" "fueledbyramen.com",
+    address :contains "from" "mondoshop.com",
+    address :contains "from" "iam8bit.com"
 ) {
     fileinto "Music";
 }
