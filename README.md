@@ -26,6 +26,7 @@ Filters are contained in the filters directory. Each file represents a separate 
 ### Service Specific Filters
 
 * `itch_io_updates.sieve`: Moves unwanted updates from itch.io to the Trash. This filter removes unwanted game updates from itch.io, since Itch does not let you individually unsubscribe from updates.
+* `expire_calender_notifications.sieve`: Expire emails from Proton calendar notifications after 30 days.
 
 ## Usage
 
