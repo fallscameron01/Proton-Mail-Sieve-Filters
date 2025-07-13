@@ -8,13 +8,18 @@ if anyof (
     address :contains "from" "cdjapan.co.jp",
     address :contains "from" "fueledbyramen.com",
     address :contains "from" "mondoshop.com",
-    address :contains "from" "iam8bit.com"
+    address :contains "from" "iam8bit.com",
+    address :contains "from" "bandcamp.com",
+    address :contains "from" "blink182@bravadostores.com"
 ) {
     fileinto "Music";
 }
 
 if anyof (
-    header :contains "From" "Twenty One Pilots"
+    header :contains "From" "Twenty One Pilots",
+    header :contains "From" "Mana Wave Media",
+    header :contains "From" "Green Day",
+    header :contains "From" "All Time Low Official Store"
 ) {
     fileinto "Music";
 }
