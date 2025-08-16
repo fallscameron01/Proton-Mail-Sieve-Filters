@@ -10,7 +10,8 @@ if anyof (
     address :contains "from" "mondoshop.com",
     address :contains "from" "iam8bit.com",
     address :contains "from" "bandcamp.com",
-    address :contains "from" "blink182@bravadostores.com"
+    address :contains "from" "blink182@bravadostores.com",
+    address :contains "from" "veryokvinyl.com"
 ) {
     fileinto "Music";
 }
