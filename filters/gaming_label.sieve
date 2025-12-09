@@ -19,7 +19,8 @@ if anyof (
     address :contains "from" "fangamer.com",
     address :contains "from" "superraregames.com",
     address :contains "from" "isthereanydeal.com",
-    address :contains "from" "fanatical.com"
+    address :contains "from" "fanatical.com",
+    address :contains "from" "cdprojektred.com"
 ) {
     fileinto "Gaming";
 }
