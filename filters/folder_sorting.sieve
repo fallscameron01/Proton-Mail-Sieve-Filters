@@ -19,3 +19,9 @@ if allof (header :contains "X-Original-To" "<addr>+finance@<domain>")
 {
     fileinto "Finance";
 }
+
+if anyof (
+    address :contains "to" "zillow"
+) {
+    fileinto "Renting";
+}
